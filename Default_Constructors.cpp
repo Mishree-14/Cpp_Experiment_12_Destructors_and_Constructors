@@ -28,7 +28,7 @@ int main() {
     return 0;
 }
 
-#OUTPUT:
+// OUTPUT:
 
-A is 3
-B is 4
+//A is 3
+//B is 4
