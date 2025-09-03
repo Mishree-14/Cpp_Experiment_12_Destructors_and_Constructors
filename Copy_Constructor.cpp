@@ -21,7 +21,7 @@ class student{
         fee = t.fee;
     }
     
-    void dispaly(){
+    void display(){
         cout<<endl<<prn<<"\t"<<name<<"\t"<<fee;
     }
 };
@@ -29,9 +29,9 @@ class student{
 int main() {
     
     student s(15, "Student1", 10000);
-    s.dispaly();
+    s.display();
     student Student1(s);
-    Student1.dispaly();
+    Student1();
     
     return 0;
 }
