@@ -177,13 +177,8 @@ Encapsulation: Binding data and functions together inside a class.
 
 Object Lifecycle: Creation using constructors and destruction using destructors.
 
-Automatic Invocation: Constructors and destructors are invoked by the compiler automatically.
-
 Constructor Overloading: Multiple constructors with different parameters can exist in one class.
 
-Copy Semantics: Using copy constructors to duplicate objects.
-
-Resource Management: Destructors free resources, preventing memory leaks.
 
 ## Conclusion
 
