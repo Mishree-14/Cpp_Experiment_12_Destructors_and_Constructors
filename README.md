@@ -127,6 +127,77 @@ Destructors are called in the reverse order of constructors, following the rule 
 | **Parameterized Constructor** | Accepts parameters for custom initialization        | Creating objects with different data values           |
 | **Copy Constructor**          | Initializes new object as a copy of an existing one | Duplicating existing object data                      |
 
+## Algorithms:
+### Default Constructor Program
+Start.
+
+Define a class with data members.
+
+Create a default constructor to assign fixed values to data members.
+
+Define a display function to show initialized values.
+
+Create an object of the class (constructor is called automatically).
+
+Call the display function to print values.
+
+Stop.
+
+### Parameterized Constructor Program
+
+Start.
+
+Define a class with data members.
+
+Create a parameterized constructor that accepts arguments and initializes data members.
+
+Define a display function to show values.
+
+Create objects with different values (constructor initializes them automatically).
+
+Call display function for each object.
+
+Stop.
+
+### Copy Constructor Program
+
+Start.
+
+Define a class with data members.
+
+Create a parameterized constructor to initialize first object.
+
+Create a copy constructor to initialize second object using first object.
+
+Define a display function to show object details.
+
+Create the first object using parameterized constructor.
+
+Create the second object using copy constructor.
+
+Call display function for both objects.
+
+Stop.
+
+### Destructor Program
+
+Start.
+
+Define a class with data members and a static counter to track objects.
+
+Create a constructor to increment counter whenever an object is created.
+
+Create a destructor to decrement counter whenever an object is destroyed.
+
+Define a display function to show counter values.
+
+Create objects and observe constructor call.
+
+When objects go out of scope, destructor is called automatically.
+
+Display updated counter values.
+
+Stop.
 
 ## Program Descriptions
 ### Copy Constructor Program
